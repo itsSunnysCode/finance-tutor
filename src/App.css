@@ -1,33 +1,136 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+.heading{
+  padding-top: 50px; 
+  color: azure;
+  font-family: 'Manjari', sans-serif;
+  font-size: 6em;
   text-align: center;
 }
+.paragraph{
+  
+  font-size: 2em;
+  color: azure;
+  text-align: center;
+}
+.start{
+ text-align: center;
+ margin:5px;
+  
+}
+.rules{
+  text-align: center;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+   background: linear-gradient(to bottom, #abbaab, #ffffff);;
+  border: 2px solid#0a0a0a;
+  border-radius: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top : 3px;
+  margin-bottom: 3px;
+  margin-left: 250px;
+  margin-right: 250px;
+ 
+}
+.bg {
+  /* The image used */
+  background-image: linear-gradient(
+    to top,
+    rgba(157, 161, 157,0.2),
+    rgba(90, 87, 87, 0.9)
+    ),
+    url("financeCover.jpg");
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+  /* Full height */
+  min-height: 100vh; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 991px){
+
+  .rules{
+    text-align: center;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+   background: linear-gradient(to bottom, #abbaab, #ffffff);;
+   
+    border: 2px solid #27ae60;
+    border-radius: 10px;
+    padding: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top : 2px;
+    margin-bottom: 2px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
 }
 
-.App-header {
-  background-color: #282c34;
+@media screen and (max-width: 768px){
+
+  .rules{
+    text-align: center;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+   background: linear-gradient(to bottom, #abbaab, #ffffff);;
+   
+    border: 2px solid #27ae60;
+    border-radius: 10px;
+    padding: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top : 2px;
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+.quiz_bg{
+background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.level{
+  color: #000000;
+  text-align: center;
+  font-family: 'Manjari', sans-serif;
+}
+.passage{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: auto;
+  border: 2px solid #10aa0b;
+  color: #080808;
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 15px;
+  background: #fffc00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.questions{
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.finalText{
+  font-family: 'Livvic', sans-serif;
+  color: #077e39;
+  background-color: #78e08f;
+   border: 2px solid #077e39;
+   
+   text-align: center;
+   
+  margin: auto;
+  border-radius: 15px;
+  padding: 20px;
 }
